@@ -11,15 +11,21 @@
 html, body{
 
     height: 100vh;
-    width: 100vh;
-    background-color: black;
+    width: 100vw;
+}
+
+body{
+
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main{
 
     height: 100vh;
     position: relative;
-    background-color: aqua;
+
 }
 
 section#telefone {
@@ -31,6 +37,6 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background-image: url(../imagens/frame-iphone.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat;
 
 }
